@@ -1,0 +1,7 @@
+// This file uses tab delimited data to illustrate import file concept in powerbuilder
+Sachin	Cricket	India
+Sindhu	Tennis	India
+Amitab	Acting	India
+Bolt	Running	Africa
+Modi	Politics	India	
+

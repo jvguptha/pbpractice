@@ -1,0 +1,38 @@
+Just In time Debugging
+-------------------------
+If we enable the Just in time debuggger while running the application in the powerbuilder development environment ,if any system error occures , 
+the powerbuilder debugger will be opened and the cursor will stay at the line where the error occured also we will get the error message.
+
+This can be usefulll to find the runtime errors while running the application in the powerbuilder development environment
+
+Tools--> System Options --> Just In time debugging -> Check the checkbox
+
+Using DebugBreak()
+-------------------------
+Use the below sample code to understad , how we need to enable the debug break
+
+ex : if li_1=1 then DebugBreak()
+
+
+To Activate the Runtime Debugger
+-------------------------
+We can create the .DBG file to trance the powerbuilder application execution in the development environment
+
+Tools --> System Options --> check Enable PBDebug Tracing 
+
+Also mention the Debug file name and path. It will track the powerbuilder application execution line by line 
+
+
+To Enable the database tracking 
+-------------------------
+
+Tools --> System Options --> Profiling -->Enable Tracking 
+
+
+Also in the database painter
+----------------------------
+Database Profile Properties --> Check the Generatae Trace check box 
+
+
+c:\users\username\appdata\local\sybase\powerbuilder 12.5\dbtrace.log
+

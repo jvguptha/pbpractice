@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "blob1.pbt";
+@end;
+DefaultTarget "blob1.pbt";
+DefaultRemoteTarget "blob1.pbt";
